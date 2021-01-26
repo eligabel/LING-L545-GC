@@ -2,11 +2,14 @@
 
 http://cl.indiana.edu/~ftyers/courses/2021/Spring/L-545/
 
-`YOUR NAME HERE`
+Lizzy Gabel
 
 ## Project
 
-`YOUR PROJECT NAME HERE`
+Predictive Text for Chukchi
 
 * Repository: `YOUR PROJECT REPOSITORY HERE`
-* Members: `PROJECT GROUP MEMBERS HERE`
+* Members: 
+	  * Cydnie Davenport
+	  * Emil Nadimanov
+	  * Tatiana Yudina
