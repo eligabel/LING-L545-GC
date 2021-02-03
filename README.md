@@ -8,7 +8,7 @@ Lizzy Gabel
 
 Predictive Text for Chukchi
 
-* Repository: `YOUR PROJECT REPOSITORY HERE`
+* Repository: https://github.com/EmilNadimanov/global-classroom
 * Members: 
 	  * Cydnie Davenport
 	  * Emil Nadimanov
