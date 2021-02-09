@@ -16,4 +16,8 @@ while line != '':
 				sys.stdout.write(token+'\n')
 		else:
 			sys.stdout.write(token +' ')
+	sys.stdout.write('\n')
+
 	line = sys.stdin.readline()
+
+#Remmeber 2D array double check stackoverflow
