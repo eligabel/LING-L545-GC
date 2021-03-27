@@ -10,6 +10,6 @@ Predictive Text for Chukchi
 
 * Repository: https://github.com/EmilNadimanov/global-classroom
 * Members: 
-	  * Cydnie Davenport
+	  * Evan Chapple
 	  * Emil Nadimanov
 	  * Tatiana Yudina
