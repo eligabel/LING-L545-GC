@@ -6,6 +6,7 @@ Multichar_Symbols
 %<n%>                ! Name/Root of noun
 %<gen%>              ! Genitive
 %<loc%>              ! Locative
+%<comp%>	     ! Comparative
 %{m%}		     ! Archiphoneme for Locative Case
 %<der_kue%>	     ! Derivational Suffix "-kue"
 
@@ -23,6 +24,7 @@ LEXICON CASE
 %<nom%>: # ; ! ""
 %<gen%>:%>gui #; ! "de"
 %<loc%>:%>%{m%}e # ; ! "a, en"
+%<comp%>:%>icha # ; ! "comparative suffix"
 
 LEXICON SUBST
 %<der_kue%>:%>kue # "weight: 1.0" ;
