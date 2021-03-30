@@ -1,0 +1,35 @@
+Multichar_Symbols
+
+Multichar_Symbols
+
+%>                   ! Front of morpheme
+%<n%>                ! Name/Root of noun
+%<gen%>              ! Genitive
+%<loc%>              ! Locative
+%{m%}		     ! Archiphoneme for Locative Case
+%<der_kue%>	     ! Derivational Suffix "-kue"
+
+LEXICON Root
+
+Nouns ;
+
+LEXICON N
+
+%<n%>: CASE ;
+%<n%>: SUBST ;
+
+LEXICON CASE
+
+%<nom%>: # ; ! ""
+%<gen%>:%>gui #; ! "de"
+%<loc%>:%>%{m%}e # ; ! "a, en"
+
+LEXICON SUBST
+%<der_kue%>:%>kue # "weight: 1.0" ;
+
+LEXICON Nouns
+
+ava:ava N ; ! "raza, gente"
+óga:óga N ; ! "casa"
+irũ:irũ N ; ! "amigo"
+apyka:apyka N ; ! "silla"
