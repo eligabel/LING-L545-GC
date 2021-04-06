@@ -9,6 +9,8 @@ Multichar_Symbols
 %<comp%>	     ! Comparative
 %{m%}		     ! Archiphoneme for Locative Case
 %<der_kue%>	     ! Derivational Suffix "-kue"
+%{n%}		     ! Nasal Archiphoneme
+%{g%}		     ! Plural Archiphoneme (base is "k" becomes "g" if nasalized)
 
 LEXICON Root
 
@@ -18,6 +20,11 @@ LEXICON N
 
 %<n%>: CASE ;
 %<n%>: SUBST ;
+%<n%>: PL;
+
+LEXICON PL
+
+%<pl%>:%>%{n%}%{g%}uéra CASE ;
 
 LEXICON CASE
 

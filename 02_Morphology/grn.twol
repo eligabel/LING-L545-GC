@@ -5,6 +5,10 @@ a b ã c d e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v w x y z ỹ á é
 
 %{m%}:p
 %{m%}:m
+%{n%}:n
+%{n%}:0
+%{g%}:g
+%{g%}:k
 ;
 
 Sets
@@ -38,3 +42,14 @@ Vx:0 <=> _ %>: i: c: h: a: ;
 
 "Change i to tonal before atonal suffixes"
 i:í <=>  _ %>: %{m%}: e: ;
+
+"Surface [n] in plural nouns"
+%{n%}:n <=> Nas: %>: _ ;
+
+"Surface [g] in pl nouns after nasals"
+%{g%}:g <=> %{n%}:n _ ;
+"Change tonal vowel to atonal if tonal in affix"
+Vt:Va <=>  _ [ ? - VowsTon]+  VowsTon: ;
+          where Vt in ( á é ó ú ý ) 
+                Va in ( a e o u y ) 
+          matched;
