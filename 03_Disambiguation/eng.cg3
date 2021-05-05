@@ -1,0 +1,30 @@
+#"much"
+#serves a pronoun in the sentence
+DELIMITERS = "." ;
+
+LIST PRON = PRON ;
+LIST OF = "of" ;
+LIST ADV = ADV;
+LIST ADJ = ADJ;
+LIST NOUN = NOUN;
+LIST COMMA = ",";
+LIST SCONJ = SCONJ;
+LIST DET = DET;
+LIST VERB = VERB;
+
+
+SECTION
+
+REMOVE ADV IF (1C OF) ;
+REMOVE ADJ IF (1C OF);
+
+#"post"
+#serves as a noun in sentence
+
+REMOVE ADJ IF (-1 NOUN OR COMMA);
+
+#"in"
+#serves as prep in this sentence
+
+REMOVE SCONJ IF (NOT 1C VERB);
+REMOVE ADV IF (-1 VERB);
